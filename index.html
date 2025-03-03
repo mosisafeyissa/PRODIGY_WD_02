@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <p class="title">Stopwatch</p>
+        <header>
+            <img src="./images/mario-gogh-VBLHICVh-lI-unsplash.jpg">
+        </header>
+        <div class="stopwatch-container">
+            <div class="stopwatch">
+                <h1 id="timeDisplay">00:00:00:00</h1>
+                <div class="labels">
+                    <p>Hours</p>
+                    <p>Minutes</p>
+                    <p>Seconds</p>
+                    <p>Microseconds</p>
+                </div>
+                
+                <div class="controls">
+                    <button id="startStopBtn">Start</button>
+                    <button id="resetBtn">Reset</button>
+                    <button id="lapBtn">Lap</button>
+                </div>
+                <div id="laps" class="laps"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="index.html"><span class="title">Stopwatch</span></a>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="bx bxl-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 [Your Company Name]. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
